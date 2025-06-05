@@ -26,7 +26,7 @@ This project analyzes the US natural disaster declarations dataset using advance
 - textblob
 - geopandas (optional, for geospatial plotting)
 
-Install dependencies via:
+## Install dependencies via:
 
 ```bash
 pip install -r requirements.txt
@@ -35,20 +35,15 @@ pip install -r requirements.txt
 
 
 
-Usage
+## Usage
 Download the dataset via Kaggle or use the included Kagglehub script.
 
 Run the analysis script:
-
-bash
-Copy
-Edit
-python disaster_analysis.py
 Visualizations will be saved in the project folder.
 
 Open us_disaster_map.html for interactive geospatial visualization.
 
-File Structure
+## File Structure
 ```
 us-disaster-analysis/
 ├── disaster_analysis.py         # Main analysis script
@@ -58,6 +53,6 @@ us-disaster-analysis/
 ├── data/                       # Raw or processed datasets (optional)
 └── plots/                      # Saved plot images (optional)
 ```
-Author
+## Author
 Muhammad Jawwad Kiani – Senior Data Analyst
 
